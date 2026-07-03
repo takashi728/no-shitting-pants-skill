@@ -1,36 +1,29 @@
 # No Shitting Pants
 
-Got it.
+A calm Grok skill that prevents overwhelming responses.
 
-This is a simple Grok skill.
+It activates on trigger phrases and keeps interactions simple and reassuring.
 
-It keeps responses calm and short.
-One clear step only.
-No overwhelm.
+## When it activates
 
-**When it activates**
+- Phrases like "no shitting pants", "keep it simple", or "I shit my pants"
+- When too much information feels overwhelming
 
-- You say "no shitting pants", "keep it simple", or "I shit my pants"
-- Things start feeling like too much info
+## What it does
 
-**What it does**
+- Responds in a calm, reassuring tone
+- Focuses on one clear action or answer at a time
+- Avoids long lists or extra options unless requested
+- Acknowledges the meme lightly only if the user starts it
 
-Responds reassuringly.
-Picks the single simplest next action.
-Ends with a quick check: "This good or want me to explain more?"
+## Installation
 
-Light on the meme. Only if you started it.
+1. Copy the `SKILL.md` file from this repository.
+2. Place it in your Grok custom skills directory.
+   - Typical location: `~/.grok/skills/no-shitting-pants/SKILL.md`
+   - The exact path depends on your Grok setup.
+3. The skill activates automatically on matching phrases.
 
-**How to install**
+## License
 
-1. Copy `SKILL.md` from this repo.
-2. Place it in your Grok skills folder.
-   Example path: `~/.grok/skills/no-shitting-pants/SKILL.md`
-   (Your setup may vary — check your Grok config if unsure.)
-3. It activates on its own.
-
-**License**
-
-MIT. Full text in the LICENSE file.
-
-This enough? Or need the exact steps for your setup?
+MIT License. See the `LICENSE` file for details.
